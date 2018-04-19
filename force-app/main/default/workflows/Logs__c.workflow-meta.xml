@@ -24,7 +24,7 @@
         <offsetFromField>Logs__c.CreatedDate</offsetFromField>
         <priority>Normal</priority>
         <protected>false</protected>
-        <status>Not Started</status>
+        <status>In Progress</status>
         <subject>This is Your task</subject>
     </tasks>
 </Workflow>
