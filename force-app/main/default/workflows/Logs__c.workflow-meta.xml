@@ -2,10 +2,6 @@
 <Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
     <rules>
         <fullName>Testing Rule</fullName>
-        <actions>
-            <name>This_is_Your_task</name>
-            <type>Task</type>
-        </actions>
         <active>false</active>
         <criteriaItems>
             <field>Logs__c.CreatedById</field>
@@ -15,16 +11,4 @@
         <description>This is a testing workflow rule</description>
         <triggerType>onAllChanges</triggerType>
     </rules>
-    <tasks>
-        <fullName>This_is_Your_task</fullName>
-        <assignedTo>test-tiyqb79v3jar@example.com</assignedTo>
-        <assignedToType>user</assignedToType>
-        <dueDateOffset>5</dueDateOffset>
-        <notifyAssignee>false</notifyAssignee>
-        <offsetFromField>Logs__c.CreatedDate</offsetFromField>
-        <priority>Normal</priority>
-        <protected>false</protected>
-        <status>In Progress</status>
-        <subject>This is Your task</subject>
-    </tasks>
 </Workflow>
